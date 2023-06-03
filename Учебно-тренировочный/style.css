@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("./fonts/roboto.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/roboto.woff") format("woff");
+  }
+h1 {
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Roboto;
+    font-style: medium;
+    width: 1219px;
+    padding: auto 55px;
+    margin: auto;
+}
+.text-head {
+    background-image: url(./Images/Head.png);
+    background-size: 100% 403px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 110px;
+}
+body {
+    margin: 0;
+}
+h2 {
+    color: #007765;
+    font-size: 64px;
+    font-family: Roboto;
+    font-style: medium;
+    text-align: center;
+}
+.thepr {
+    width: 1219px;
+    padding: auto 55px;
+    margin: auto;
+}
+.text1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 32px;
+}
+.image2{
+    background-image: url(./Images/image2.png);
+    background-size: 100% 483px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.image2 p {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: Roboto;
+    font-style: italic;
+    padding: 128px 163px;
+}
+.crutch {
+    width: 1219px;
+    padding: auto 55px;
+    margin: auto;
+}
+.text1 img {
+    float: left;
+    padding: 0px 48px 30px 0;
+}
+.clearfex {
+    clear: both;
+}
+.theend {
+    background-color: #EEEEEE;
+}
+.pic {
+    max-width: 200px;
+    text-align: center;
+}
+h3 {
+    color: #007765;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: bold;
+}
+.p2 {
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: italic;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 30px;
+}
+h3,.p2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+header {
+    background-color: #007765;
+    height: 84px;
+    position: sticky;
+    top: 0;
+}
+header img {
+    margin: 20px auto;
+}
+.header {
+    width: 1219px;
+    padding: auto 55px;
+    margin: auto;
+}
+.spisok {
+    float: right;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: medium;
+    margin: 28px auto;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
